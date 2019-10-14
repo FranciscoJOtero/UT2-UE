@@ -9,6 +9,25 @@
             .clasecolor{
                 color: blueviolet;
             }
+
+            p {/* Selector de elemento */
+                text-align: center;
+                color: cyan;
+            }
+            #particularcolor1{ /* Selectores de Id.Estilo particular */
+                color: darkgoldenrod;
+
+            }
+            .clasealineacion1{
+                text-align: right;
+            }
+            .variasclases {
+                color: darkgreen;
+            }
+            .variasclases2{
+                text-align: center;
+            }
+
         </style>
         <link rel="stylesheet" type="text/css" href="css/hojaEstilos1.css">
     </head>
@@ -28,5 +47,13 @@
 
         <p class="clasecolor colorhojaexterna"> Pruebo el orden de prioridades entre una hoja de estilos interna y una externa.En este caso la hoja de estilos externa
              está declarada antes en el código de la hoja de estilos interna. Hay que recordar que el código se interpreta en cascada, es decir, linea a linea </p>
+
+        <h2> Selectores </h2>
+        <p> Los elementos que tengan una clase especifica van a tener las propiedades de esa clase especifica con prioridad sobre los selectores de elemento </p>
+        <p id="particularcolor1"> Este párrafo va a cumplir un estilo particular(selector de id).Tiene prioridad sobre el selector de elemento si hay propiedades </p>
+        <p class="clasealineacion1"> Este parrafo cumple una clase "clasealineacion1".Si cumpliera un selector de nombre, las propiedades comunes con la clasealineacion1 tendrian prioridad el selector de clase </p>
+
+        <h2> Aplicar varias clases a un elemento </h2>
+        <div class="variasclases variasclases2"> Capa que cumple varias clases </div>
     </body>
 </html>
