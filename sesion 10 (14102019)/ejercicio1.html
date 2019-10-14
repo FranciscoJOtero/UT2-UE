@@ -13,14 +13,20 @@
         <link rel="stylesheet" type="text/css" href="css/hojaEstilos1.css">
     </head>
     <body>
-        <h1> Sesion 10 UT2 </h1>
+        <h1> Sesión 10 - UT2 </h1>
         <h2> Trabajo con hojas de estilo internas </h2>
-        <p class="clasecolor"> Este parrafo utiliza la clase "clasecolor" implementada en una hoja de estilos interna</p>
+        <p class="clasecolor"> Este párrafo utiliza la clase "clasecolor" implementada en una hoja de estilos interna</p>
 
         <h2> Trabajo con hojas de estilo externas </h2>
-        <p> El espan que esta dentro de este párrafo, utilizara una <span class="colorhojaexterna"> clase implementada en una hoja de estilos externa </span></p>
+        <p> El espan que está dentro de este párrafo, utilizará una <span class="colorhojaexterna"> clase implementada en una hoja de estilos externa </span></p>
 
         <h2> Trabajo con estilos aplicados en linea </h2>
-        <p> Este párrafo tendra dentro un <span style="color: crimson;"> span que utilizara un estilo en linea</span> </p>
+        <p> Este párrafo tendrá dentro un <span style="color: crimson;"> span que utilizará un estilo en linea</span> </p>
+
+        <h2> Vamos a probar las prioridades a la hora de aplicar estilos:en línea(de forma directa), de forma interna o de forma externa </h2>
+        <p style="color: red;" class="clasecolor"> Va a tener propiedades que se sobreescriben. Aqui demostramos que el estilo en linea tiene prioridad sobre el estilo de hoja interna </p>
+
+        <p class="clasecolor colorhojaexterna"> Pruebo el orden de prioridades entre una hoja de estilos interna y una externa.En este caso la hoja de estilos externa
+             está declarada antes en el código de la hoja de estilos interna. Hay que recordar que el código se interpreta en cascada, es decir, linea a linea </p>
     </body>
 </html>
