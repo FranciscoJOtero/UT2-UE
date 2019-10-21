@@ -1,0 +1,105 @@
+.estiloborde{
+    border-style: dotted;
+}
+
+.anchoborde{
+    border-width: 3px;
+
+}
+.colorborde{
+    border-color: red;
+}
+
+.dimensionescapa{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+}
+
+.bordeizq{
+    border-left-color: aqua;
+    border-left-style: solid;
+    border-left-width: 4px;
+
+}
+.bordedrcho{
+    border-right-color:brown;
+    border-right-style: dashed;
+    border-right-width: 1px;
+
+}
+.bordesup{
+    border-top-color:greenyellow;
+    border-top-style: double;
+    border-top-width: 8px;
+}
+.bordeinf{
+    border-bottom-color: goldenrod;
+    border-bottom-style: dotted;
+    border-bottom-width: 3px;
+}
+
+.bordeizqresumen{
+
+    border-left: solid blue 4px;
+
+}
+.bordedrchoresumen{
+
+    border-right:dotted yellow 6px;
+    
+}
+.bordesupresumen{
+
+    border-top: dashed pink 6px;
+    
+}
+.bordeinfresumen{
+
+    border-bottom: double red 2px;
+
+
+}
+
+.bordesredondeados{
+
+    border-radius: 10px; /* Cuanto mayor sea el valor, mas redondeado va a ser el borde, si pones 50% hace un circulo perfecto */
+    border:solid green 4px;
+
+}
+
+/* Demostración de la propiedad box-sizing */
+
+.capaizq{
+    float: left;
+    width: 20%;
+    height: 300px;
+    border: solid green 2px;
+}
+.capacentro{
+    float: left;
+    width: 60%;
+    height: 300px;
+    border: solid yellow 2px;
+}
+.capaderch{
+    float: left;
+    width: 20%;
+    height: 300px;
+    border: solid blue 2px;
+}
+
+.contenedor{
+    width: 95%;
+    margin: auto;
+}
+
+.contenedorcapasboxs{
+    width: 100%;
+}
+
+.boxsizing{
+
+    box-sizing: border-box; /* Esta propiedad incluye el ancho del borde en el ancho del elemento que tiene ese borde */
+
+}
