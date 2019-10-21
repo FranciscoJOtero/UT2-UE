@@ -1,0 +1,33 @@
+.margensup{
+
+    margin-top: 40px;
+
+}
+.margenif {
+
+    margin-bottom: 60px;
+
+}
+
+.margenizq{
+
+    margin-left: 100px;
+
+}
+
+.margendrcho{
+
+    margin-right: 80px;
+
+}
+
+.capa {
+
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    box-sizing: border-box;
+    float: left;
+    overflow: auto;
+
+}
