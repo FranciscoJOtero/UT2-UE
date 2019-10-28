@@ -38,13 +38,29 @@
 
 a:link{
     color: green;
+    text-decoration:none; /* Para que los enlaces no aparezcan subrayados*/
 }
 a:visited{
     color: purple;;
 }
 a:active{
     color: aquamarine;
+    background-color: palegoldenrod; /* Cuando esta activo el color de fondo es el seleccionado. */
 }
 a:hover{
     color: orange;
+    text-decoration: underline; /* Cuando pones el ratón encima se subraya el enlace*/ 
+}
+ol{
+    background-color: #ff9999;
+    padding: 20px;
+}
+
+ol li{ /* Selector descendente - Elementos li contenidos en un elemento ol */
+    background-color: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+ul{
+    list-style-image: url('../recursos/favicon.png');
 }
