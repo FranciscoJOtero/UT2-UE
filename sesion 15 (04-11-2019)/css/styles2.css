@@ -1,0 +1,58 @@
+p.ocultar{
+    display: none;
+    background-color: yellowgreen;
+    padding: 20px;
+}
+
+div:hover p.ocultar{
+
+    display: block;
+
+}
+
+/* Pseudoclase first child */
+
+div p:first-child{
+
+    color: brown;
+
+}
+
+/* Pseudelemento first line.Selecciona la primera linea de un elemento */
+
+p.primeralinea::first-line {
+
+    font-size: 2em;/*medida relativa*/
+
+}
+
+/* Pseudoelemento first-letter*/
+
+p.primeraletra::first-letter{
+
+    font-size: 3em;
+
+}
+
+/* Pseudoelemento before */
+h6::before {
+
+    content: "Elemento - "; /* Añade contenido delante de todos los elementos que sean h6 */
+
+}
+
+/* Pseudoelemento after */
+
+h5::after {
+
+    content: " - Videojuego"; /* Añade contenido por detras de todos los elementos que sean h5 */
+
+}
+
+/* Pseudoelemento selection */
+
+::selection{
+    background-color: blue;
+    color: red;
+
+}
