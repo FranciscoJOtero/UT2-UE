@@ -1,0 +1,44 @@
+ol.a {
+    list-style-position: inside;
+}
+ol {
+    list-style-position: outside;
+}
+
+ul.b {
+    list-style-position: inside;
+}
+
+ul {
+    list-style-position: outside;
+}
+
+/* SELECTOR DESCENDENTE */
+
+div p{
+    color: green;
+}
+
+/* SELECTOR HIJO */
+
+span > a{
+
+    color:red;
+
+}
+
+/* SELECTOR ADYACENTE HERMANO */
+
+h4 + h5 {
+
+    color: aquamarine;
+
+}
+
+/* SELECTOR HERMANO GENERAL */
+
+h5 ~ h6 {
+
+    color: yellowgreen;
+
+}
