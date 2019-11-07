@@ -1,0 +1,32 @@
+.displaynone{
+    width: 75%;
+    min-height: 500px;
+    border:1px solid black;
+    display: none;
+
+}
+
+.displayinline{
+    display: inline;
+    color: red;
+    border: 1px solid black;
+    width: 70%; /* Esta propiedad es ignorada por display:inline; */
+}
+.pruebasimg{
+    width: 60%; /* Cuidado, el ancho si afecta a determinados elementos a pesar de tener la propiedad inline */
+    border: 5px solid red;
+    display: inline;
+}
+.displayinlineblock{
+    width: 49%; /* Automáticamente se añade un espacion entre elementos inline-block */
+    border: 2px solid paleturquoise;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.capaoculta{
+    width: 80%;
+    min-height:500px ;
+    border: 2px solid black;
+    visibility: hidden;
+
+}
