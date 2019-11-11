@@ -1,0 +1,53 @@
+.flotar_izquierda{
+
+    float: left;
+
+}
+
+.flotar_derecha {
+
+    float: right;
+
+}
+
+.capaEstandar{
+
+    width: 25%;
+    min-height: 200px;
+    border: 1px solid black;
+
+}
+
+.contenedor {
+
+    margin-top: 5%;
+    width: 90%;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid purple;
+    box-sizing: border-box;
+    clear: both; /* Limpia los flotantes de los elementos superiores, en este caso a ambos lados */
+
+}
+
+.contenedor_menu {
+
+    width: 95%;
+    margin-bottom: 50px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.elemento{
+    
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 15px 0;
+    border: solid 2px red;
+    box-sizing: border-box;
+
+}
