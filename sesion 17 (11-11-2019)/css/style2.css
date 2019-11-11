@@ -1,0 +1,26 @@
+.capaestandar {
+
+    width: 300px;
+    min-height: 200px;
+    border: solid 1px black;
+
+}
+
+.contenedor {
+
+    position: relative;
+    width: 90%;
+    min-height: 600px;
+    margin: auto;
+    border: solid 1px blue;
+    box-sizing: border-box;
+
+}
+
+.positionabsolute {
+
+    position: absolute;
+    top: 5%;
+    left: 10%;
+
+}
