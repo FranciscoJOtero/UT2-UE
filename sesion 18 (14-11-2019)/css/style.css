@@ -1,0 +1,86 @@
+.flotarderecha{
+
+    float: right;
+
+}
+h2 {
+
+    text-align: center;
+
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.capacentrada { /* Centrado de elementos en bloque */
+
+    width: 60%;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+
+}
+.centradoelementoinline{ /* De forma cutre */
+
+text-align: center;
+
+}
+
+.contenedor {
+
+    width: 80%;
+    min-height: 300px;
+    border: solid 1px black;
+    position: relative;
+
+}
+
+.alinearDerechaPosition {
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: blue;
+
+}
+
+.alinearDerechaFloat{
+
+    float: right;
+
+}
+
+ol {
+
+list-style-type: none;
+margin-top: 40px;
+
+}
+ol li {
+
+    padding: 30px 10px; /* Arriba y abajo 30px */
+    border: solid 1px black;
+    display: inline;
+    margin-left: 10px;
+
+}
+.centradoVertical{
+
+    margin-top: 40px;
+    height: 200px;
+    line-height: 200px;
+    border: solid 1px black;
+    text-align: center;
+
+}
+
+.centradoVertical p {
+
+    /*line-height: 1.5;*/
+    display: inline-block;
+    vertical-align: middle;
+
+}
