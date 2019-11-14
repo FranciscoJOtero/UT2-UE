@@ -9,7 +9,7 @@ h2 {
 
 }
 
-img {
+.peques {
     width: 300px;
     height: 200px;
 }
@@ -79,8 +79,47 @@ ol li {
 
 .centradoVertical p {
 
-    /*line-height: 1.5;*/
+    line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+
+}
+
+.contenedorTransform{
+    margin-top: 40px;
+    height: 200px;
+    position: relative;
+    border: 1px solid blue;
+
+}
+
+.contenedorTransform p { /* Incompatible con IE8 y anteriores */
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Desplaza en el eje X y en el eje Y */
+    -ms-transform: translate(-50%, -50%); 
+
+}
+.opacidad { /* Establece opacidad a un elemento. */
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+}
+.contenedorimagen{
+
+    position: relative;
+
+}
+
+.texto {
+
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    text-align: center;
 
 }
